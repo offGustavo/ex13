@@ -10,9 +10,11 @@ for (i = 0; i < bancoDeDados.length; i++) {
           <h5 class="card-title">${bancoDeDados[i].titulo}</h5>
 
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
-              Ver ${bancoDeDados[i].titulo}
-          </button>
+          <div class="d-flex justify-content-end  ">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+                Ver Mais
+            </button>
+          </div>
 
       </div>
   </div>
