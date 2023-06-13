@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+#header-container {
+  height: 50vh;
+  background: center url("https://picsum.photos/1500/400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  text-shadow: 1px 1px 0px var(--bs-black), -1px -1px 0px black;
+  color: var(--bs-black);
+}
+
+#card-ratio {
+   aspect-ratio: 1/1;
+  transition: all 200ms ease-in-out;
+}
+html::-webkit-scrollbar {
+  width: 0px;
+}
