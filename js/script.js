@@ -30,7 +30,7 @@ for (i = 0; i < bancoDeDados.length; i++) {
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-              <div class="card m-0 p-0">
+              <div class="card border-0 m-0 p-0">
                   <img src="${bancoDeDados[i].url}" class="card-img-top" alt="">
                   <div class="card-body">
                       <p class="card-text">${bancoDeDados[i].descricao}</p>
